@@ -1,0 +1,14 @@
+@media only screen and (max-width:1116px) {
+
+}
+@media only screen and (max-width:910px) {
+
+}
+@media only screen and (max-width:877px) {
+
+}
+@media only screen and (max-width:678px) {
+  .mod-heading02{
+    display: none;
+  }
+}

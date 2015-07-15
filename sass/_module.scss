@@ -1,0 +1,17 @@
+@mixin radiusBox01 {
+  padding: 10px;
+  background-color: #eee;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 3px 7px 0 #ccc;
+  box-shadow: 0 3px 7px 0 #ccc;
+}
+
+@for $value from 0 through 100{
+  .hp-mb#{$value*5}{
+    margin-bottom:5px*$value!important;
+  }
+}
